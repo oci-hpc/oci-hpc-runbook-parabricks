@@ -1,4 +1,4 @@
-![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png | width=100 height=100)
+<img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png" width="100" height="100">
 
 ## Deployment through Resource Manager
 

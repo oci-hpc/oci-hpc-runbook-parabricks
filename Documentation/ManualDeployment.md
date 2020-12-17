@@ -37,12 +37,12 @@ Before creating an instance, we need to configure a Virtual Cloud Network.
 
  2. On the next page, type GPU into the search bar and select NVIDIA GPU Cloud Machine Image <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/GPU%20Search%20Bar.png" height="300">. 
 
- 3. Once you selected the image, choose the version and compartment where you'd like to launch the instance. Once you're done click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Launch%20instance.png" height="20">
+ 3. Once you selected the image, choose the version and compartment where you'd like to launch the instance. Once you're done click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Launch%20instance.png" height="100">
  
  4. Fill out the following information on this page
     * Name of your instance.
     * Compartment
-    * Availability Domain: Each region has one or more availability domains. Some instance shapes are only available in certain AD.
+    * Availability Domain: Each region has one or more availability domains. Some instance shapes are only available in certain ADs.
     * Instance Shape: 
       * For 8 A100 GPU, select BM.GPU4.8
       * For 8 V100 GPU, select BM.GPU3.8
@@ -78,7 +78,7 @@ Before creating an instance, we need to configure a Virtual Cloud Network.
 
  8. Click <img src="https://github.com/oci-hpc/oci-hpc-runbook-gromacs/blob/master/images/attach_BV.png" height="25">
 
- 9. All the default settings will work fine. Select the Block Volume that was just created and specify /dev/oracleoci/oraclevdb as device path. 
+ 9. All the default settings will work fine. Select the Block Volume that was just created and specify `/dev/oracleoci/oraclevdb` as the device path. 
   Click <img src="https://github.com/oci-hpc/oci-hpc-runbook-gromacs/blob/master/images/attach.png" height="25">.
 
     **Note: If you do not see the Block Volume, it may be because you did not place it in the same AD as your running instance**

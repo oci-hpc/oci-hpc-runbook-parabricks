@@ -61,7 +61,7 @@ GPU Node:
 Block Options:
 * BLOCK VOLUME SIZE ( GB ): Size of the shared block volume.
 
-Gromacs:
+Parabricks:
 * URL TO DOWNLOAD PARABRICKS INSTALLER: Replace the url with a different version or leave blank if you wish to download later.
 * URL TO DOWNLOAD PARABRICKS ASSETS: URL of the model you wish to run (replace the url with a different model or leave blank if you wish to download later).
 
@@ -80,8 +80,8 @@ In the "Terraform Actions" dropdown menu <img src="https://github.com/oci-hpc/oc
 Once your job has completed successfully in Resource Manager, you can find the Public IP Addresses for the GPU node and the Private Key on the lower left menu under **Outputs**. Copy the Private Key onto your local machine, change the permissions of the key and login to the instance:
 
 ```
-chmod 400 /home/user/key
+chmod 600 /home/user/key
 ssh -i /home/user/key opc@ipaddress
 ```
 
-Once logged into your GPU node, you can run Gromacs from /mnt/block. Refer to the README.md file for specific commands on how to run Gromacs on your GPU instance.
+Once logged into your GPU node, you can run Parabricks from /mnt/block. Refer to the README.md file for specific commands on how to run Parabricks on your GPU instance.

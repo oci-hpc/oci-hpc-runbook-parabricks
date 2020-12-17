@@ -9,7 +9,7 @@ Gromacs supports running on CPU's or GPU's and supports parallel processing. It 
 The architecture for this runbook is simple, a single machine running inside of an OCI VCN with a public subnet.
 Since a GPU instance is used, block storage is attached to the instance and installed with the Parabricks application and sample/reference data. The instance is located in a public subnet and assigned a public ip, which can be accessed via ssh. 
 
-![](/.image/OCI Architecture.png "")
+![](/.image/OCI Architecture.png " ")
 
 # Login
 Login to the using opc as a username:

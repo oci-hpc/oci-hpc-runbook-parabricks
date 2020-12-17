@@ -5,7 +5,7 @@ This Runbook provides the steps to deploy a GPU machine on Oracle Cloud Infrastr
 
 Parabricks is a is a computational framework supporting genomics applications from DNA to RNA. It is GPU-based solution that speeds up the process of analyzing whole genomes–all 3 billion base pairs in human chromosomes–from days to under an hour. Parabricks can be used to establish patterns in protein folding, protein-ligand binding, and cell membrane transport, making it a very useful application for drug research and discovery.
 
-Gromacs supports running on CPU's or GPU's and supports parallel processing. It was developed by the University of Gronigen and is now maintained by various contributors around the world. More information can be found here.
+Parabricks supports running on GPU's and supports parallel processing. It began as an Ann Arbor, Michigan-based startup and is now part of the NVIDIA Healthcare team. More information can be found [here](https://www.nvidia.com/en-us/healthcare/clara-parabricks/). 
 
 # Architecture
 The architecture for this runbook is simple, a single machine running inside of an OCI VCN with a public subnet.
@@ -30,7 +30,9 @@ The web console let you create each piece of the architecture one by one from a 
 Please obtain a Parabricks license [here](https://developer.nvidia.com/clara-parabricks). 
 
 # Running the Application
-If the provided terraform scripts are used to launch the application, Parabricks is installed in the /mnt/block/Parabricks folder and the example benchmarking model is available in /mnt/block/data folder. Run Parabricks via the following commands:
+If the provided terraform scripts are used to launch the application, Parabricks is installed in the /mnt/block/Parabricks folder and the example benchmarking model is available in /mnt/block/data folder. The following scripts run the germline pipleine, the architecture shown below. 
+
+![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Germline%20Pipeline%20Architecture.png)
 
 Run Parabricks germline pipeline on OCI GPU shapes via the following command:
 

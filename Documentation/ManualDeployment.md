@@ -10,6 +10,7 @@
   - [Block Storage](#block-storage)
   - [Mounting a Block Storage or NVME SSD Drive](#mounting-a-block-storage-or-nvme-ssd-drive)
 - [Parabricks Configuration](#parabricks-configuration)
+  - [Running_Parabricks](#running-parabricks)
 
 ### Log In
 You can start by logging in the Oracle Cloud console. If this is the first time, instructions to do so are available [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/signingin.htm).

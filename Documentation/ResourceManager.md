@@ -81,7 +81,7 @@ Once your job has completed successfully in Resource Manager, you can find the P
 
 ```
 chmod 600 /home/user/key
-ssh -i /home/user/key opc@ipaddress
+ssh -i /home/user/key ubuntu@ipaddress
 ```
 
 Once logged into your GPU node, you can run Parabricks from /mnt/block. Refer to the README.md file for specific commands on how to run Parabricks on your GPU instance.

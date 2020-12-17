@@ -1,5 +1,5 @@
-<img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png" width="100" height="100">
-
+<img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png" width="200" height="200"> ## Runbook
+ 
 ## Deployment through Resource Manager
 
 ### Table of Contents

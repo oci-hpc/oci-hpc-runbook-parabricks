@@ -1,4 +1,4 @@
-<img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png" width="200" height="200"> 
+# <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks%20Logo.png" width="200" height="200"> Runbook
 
 # Introduction
 This Runbook provides the steps to deploy a GPU machine on Oracle Cloud Infrastructure, install Parabricks, and run a benchmark using Parabricks software.

@@ -1,4 +1,4 @@
-Runbook
+![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Parabricks.png)
 
 ## Deployment through Resource Manager
 

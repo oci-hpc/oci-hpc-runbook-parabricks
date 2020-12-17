@@ -9,10 +9,7 @@
   - [Compute Instance](#compute-instance)
   - [Block Storage](#block-storage)
   - [Mounting a Block Storage or NVME SSD Drive](#mounting-a-block-storage-or-nvme-ssd-drive)
-  - [Creating a Network File System](#creating-a-network-file-system)
 - [Parabricks Configuration](#parabricks-configuration)
-  - [Configuring NVIDIA GPUs (CentOS Only)](#configuring-nvidia-gpus)
-  - [Compiling Parabricks](#compiling-parabricks)
 
 ### Log In
 You can start by logging in the Oracle Cloud console. If this is the first time, instructions to do so are available [here](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/signingin.htm).

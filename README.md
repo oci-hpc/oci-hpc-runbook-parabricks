@@ -22,9 +22,8 @@ Note that if you are using resource manager, obtain the private key from the out
 
 # Deployment
 Deploying this architecture on OCI can be done in different ways:
-
-The resource Manager let you deploy the infrastructure from the console. Only relevant variables are shown but others can be changed in the zip file.
-The web console let you create each piece of the architecture one by one from a webbrowser. This can be used to avoid any terraform scripting or using existing templates.
+* The [resource Manager](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Documentation/ResourceManager.md#deployment-through-resource-manager) let you deploy the infrastructure from the console. Only relevant variables are shown but others can be changed in the zip file. 
+* The [web console](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Documentation/ManualDeployment.md#deployment-via-web-console) let you create each piece of the architecture one by one from a webbrowser. This can be used to avoid any terraform scripting or using existing templates. 
 
 # Licensing
 Please obtain a Parabricks license [here](https://developer.nvidia.com/clara-parabricks). 

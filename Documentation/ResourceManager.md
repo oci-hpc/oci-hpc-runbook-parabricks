@@ -33,9 +33,9 @@ Select the region in which you wish to create your instance. Click on the curren
 
   6. Click on the 3 dots to the right side of the object you just uploaded <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/3dots.png" height="20"> and select "Create Pre-Authenticated Request". 
 
-  6. In the following menu, leave the default options and select an expiration date for the URL of your installer. Click on  <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/pre_auth.png" height="25">.
+  7. In the following menu, leave the default options and select an expiration date for the URL of your installer. Click on  <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/pre_auth.png" height="25">.
 
-  7. In the next window, copy the "PRE-AUTHENTICATED REQUEST URL" and keep it. You will not be able to retrieve it after you close this window. If you loose it or it expires, it is always possible to recreate another Pre-Authenticated Request that will generate a different URL.
+  8. In the next window, copy the "PRE-AUTHENTICATED REQUEST URL" and keep it. You will not be able to retrieve it after you close this window. If you lose it or it expires, it is always possible to recreate another Pre-Authenticated Request that will generate a different URL.
 
 
 ### Resource Manager
@@ -45,7 +45,7 @@ In the OCI console, there is a Resource Manager available that will create all t
 
   2. Create a new stack: <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/stack.png" height="20">
 
-  3. Download the [zip file](https://github.com/oci-hpc/oci-hpc-runbook-gromacs/tree/master/Resources/gromacs-2020.1.zip)INSERT ZIP FILE for terraform scripts and upload it into the stack. 
+  3. Download the [zip file](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Resources/parabricks-2020.zip) for terraform scripts and upload it into the stack. 
 
 Move to the [Select Variables](#select-variables) section to complete configuration of the stack.
 
@@ -66,7 +66,7 @@ Parabricks:
 * URL TO DOWNLOAD PARABRICKS ASSETS: URL of the model you wish to run (replace the url with a different model or leave blank if you wish to download later).
 
 Click on <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/next.png" height="20">.
-Review the informations and click on <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/create.png" height="20">.
+Review the information and click on <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/create.png" height="20">.
 
 ### Run the stack
 

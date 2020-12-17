@@ -39,12 +39,12 @@ Run Parabricks germline pipeline on OCI GPU shapes via the following command:
 
 where:
 
-pbrun = program that reads the input file and execues the pipeline
---ref (required) = The reference genome in fasta format
---in-fq (required) = Pair ended fastq files
---out-bam (required) = Path to the file that will contain BAM output
---out-variants (required) = Name of VCF/GVCF/GVCF.GZ file after Variant Calling
---num-gpus = The number of GPUs to be used for this analysis task
+- pbrun = program that reads the input file and execues the pipeline
+- --ref (required) = The reference genome in fasta format
+- --in-fq (required) = Pair ended fastq files
+- --out-bam (required) = Path to the file that will contain BAM output
+- --out-variants (required) = Name of VCF/GVCF/GVCF.GZ file after Variant Calling
+- --num-gpus = The number of GPUs to be used for this analysis task
 
 Example for BM.GPU3.8:
 

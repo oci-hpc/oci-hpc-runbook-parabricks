@@ -112,7 +112,7 @@ You will need to mount it to your running instance to be able to use it.
     ```
     sudo mkfs -t ext4 <device path>
     ```
-    For example: `sudo mkfs -t /dev/oracleoci/oraclevdb`
+    For example: `sudo mkfs -t ext4 /dev/oracleoci/oraclevdb`
     
  4. Create a folder on the `/mnt` drive to mount the block volume. For example:
     ```

@@ -152,7 +152,7 @@ This guide will show you how to configure Parabricks on Oracle Linux 7.6 or Cent
  1. Download a sample dataset to run a benchmark and untar it:
     ```
     wget "https://objectstorage.us-ashburn-1.oraclecloud.com/p/cGH2qx5swTiahEmUlo8VKO8NwtWqmyauCKkz6nBTGtMeOYb3vtYc7kkBR-wj-uNX/n/hpc_limited_availability/b/parabricks/o/parabricks_assets.tar.gz"
-    tar -xvzf parabricks_sample.tar.gz
+    tar -xvzf parabricks_assets.tar.gz
     ```
 
  2. Refer to the README.md file for command line parameters to run Parabricks. 

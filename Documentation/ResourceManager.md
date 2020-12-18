@@ -84,4 +84,10 @@ chmod 600 /home/user/key
 ssh -i /home/user/key ubuntu@ipaddress
 ```
 
-Once logged into your GPU node, you can run Parabricks from /mnt/block. Refer to the README.md file for specific commands on how to run Parabricks on your GPU instance.
+Once logged into your GPU node, you can install Parabricks by going into `/mnt/block/parabricks` and run the following command
+
+```
+sudo ./parabricks/installer.py
+```
+
+After installation, to run Parabricks, refer to the README.md file for specific commands on how to run Parabricks on your GPU instance.

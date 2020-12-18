@@ -22,9 +22,9 @@ Select the region in which you wish to create your instance. Click on the curren
 Before creating an instance, we need to configure a Virtual Cloud Network. 
  1. Select the menu <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/menu.png" height="20"> on the top left, then select Networking --> Virtual Cloud Networks. Make sure to select your compartment on the lower left side 
  
- <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN%20Compartment.png" heigh="50">
+ <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN%20Compartment.png" heigh="30">
  
-and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN_Start_Wizard.png" height="50">.
+and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN_Start_Wizard.png" height="25">.
 
  2. On the next page, select the following: 
     * VNC with Internet Connectivity --> Start VCN Wizard

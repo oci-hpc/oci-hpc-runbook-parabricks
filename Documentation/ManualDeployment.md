@@ -91,7 +91,7 @@ and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/b
 
      <img src="https://github.com/oci-hpc/oci-hpc-runbook-gromacs/blob/master/images/ISCSi.png" height="150">
 
- 11. Copy and execute the commands to attach the block volume to the instance. 
+ 11. Copy and execute the commands in your instance to attach the block volume.
 
      <img src="https://github.com/oci-hpc/oci-hpc-runbook-gromacs/blob/master/images/iscsi_commands.png" height="200">
 

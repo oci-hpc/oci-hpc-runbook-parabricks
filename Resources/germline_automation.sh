@@ -155,8 +155,6 @@ handle_valid_custom_params(){
              out_variants_output="${date}_${out_variants}_${i}.vcf"
              sudo pbrun germline --ref "${ref_file}" --in-fq "${infq_file[${#infq_file[@]}-2]}" "${infq_file[${#infq_file[@]}-1]}" --num-gpus "${i}" --out-bam "${out_bam_output}" --out-variants "${out_variants_output}" 2>&1 | tee "${germline_output}"
              mv "${germline_output}" "${runs}"
-
-
          done
 	    echo "Uploading logs to Object Storage"
 		for file in $runs/*; do
@@ -188,19 +186,4 @@ main "$@"
 
 #sample run
 
-#./germline_automation --iterations 2 --ref /mnt/block/data/Ref/Homo_sapiens_assembly38.fasta  --in-fq /mnt/block/data/sample_1.fq.gz /mnt/block/data/sample_2.fq.gz --num-gpus 8 --out-bam germline --out-variants germline
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#./germline_automation.sh --iterations 2 --ref /mnt/block/parabricks_assets/Ref/Homo_sapiens_assembly38.fasta  --in-fq /mnt/block/parabricks_assets/data/sample_1.fq.gz /mnt/block/parabricks_assets/data/sample_2.fq.gz --num-gpus 8 --out-bam germline --out-variants germline

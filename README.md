@@ -50,7 +50,7 @@ Example for BM.GPU3.8:
 
 `sudo pbrun germline --ref /mnt/block/data/Ref/Homo_sapiens_assembly38.fasta --in-fq /mnt/block/data/sample_1.fq.gz /mnt/block/data/sample_2.fq.gz --num-gpus 8 --out-bam germline.bam --out-variants germline.bam 2>&1 | tee germline.txt`
 
-Once the run is complete, go to the txt file you wrote the output to. The run will show the time it took for the following stages in the germline pipeline 
+Once the benchmark is complete, go to the txt file you wrote the output to. The benchmark will show the time it took for the following programs n the germline pipeline to run:
 - Sorting Phase - I
 - Sorting Phase - II 
 - Marking Duplicates, BQSR 

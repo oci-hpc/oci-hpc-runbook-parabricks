@@ -58,4 +58,4 @@ Once the benchmark is complete, go to the txt file you wrote the output to. The 
 
 If you'd like to automate this pipeline, please refer to the [automation script](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Resources/germline_automation.sh). 
 
-
+`scp myfile.txt {username}\@{public-ip-address}:/remote/folder/`

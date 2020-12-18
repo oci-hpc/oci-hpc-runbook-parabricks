@@ -24,7 +24,7 @@ Before creating an instance, we need to configure a Virtual Cloud Network.
  
  <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN%20Compartment.png" heigh="50">
  
-and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN_Start_Wizard.png" height="20">.
+and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/VCN_Start_Wizard.png" height="50">.
 
  2. On the next page, select the following: 
     * VNC with Internet Connectivity --> Start VCN Wizard

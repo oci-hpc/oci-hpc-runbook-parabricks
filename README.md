@@ -14,7 +14,7 @@ Since a GPU instance is used, block storage is attached to the instance and inst
 ![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/OCI%20Architecture.png)
 
 # Performance
-This is the performance comparison between BM.GPU4.8(A100), BM.GPU3.8(V100), and VM.GPU3.4(V100). 
+This is the performance comparison between BM.GPU4.8(A100), BM.GPU3.8(V100), and VM.GPU3.4(V100). The sample data (48G and 49G) used in this benchmark was [NA12878](https://www.ebi.ac.uk/ena/browser/view/ERR194147) from ILLUMINA.
 ![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/A100%20vs%20V100%20on%20OCI.png)
 
 # Login

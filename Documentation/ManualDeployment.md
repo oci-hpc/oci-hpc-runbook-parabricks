@@ -144,7 +144,7 @@ This guide will show you how to configure Parabricks on Oracle Linux 7.6 or Cent
     ```
  5. Verify your pbrun version:
     ```
-    sudo ./parabricks/installer.py
+    sudo pbrun version
     ```
     
 ### Running Parabricks

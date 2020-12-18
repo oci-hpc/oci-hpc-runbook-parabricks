@@ -41,7 +41,7 @@ and then click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/b
 
  2. On the next page, type GPU into the search bar and select NVIDIA GPU Cloud Machine Image <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/GPU%20Search%20Bar.png" height="300">. 
 
- 3. Once you selected the image, choose the version and compartment where you'd like to launch the instance. Once you're done click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Launch%20instance.png" height="100">
+ 3. Once you selected the image, choose the version `20190403001` and the compartment where you'd like to launch the instance. Once you're done click <img src="https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Launch%20instance.png" height="100">
  
  4. Fill out the following information on this page
     * Name of your instance.

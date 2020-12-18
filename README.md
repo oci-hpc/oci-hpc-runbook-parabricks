@@ -33,7 +33,7 @@ If the provided terraform scripts are used to launch the application, Parabricks
 
 ![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Germline%20Pipeline%20Architecture.png)
 
-Run Parabricks germline pipeline on OCI GPU shapes via the following command:
+Run Parabricks germline pipeline on OCI GPU shapes via the following command (Suggestion: Make a separate folder called `/mnt/block/results` to run command inside):
 
 `sudo pbrun germline --ref <ref file> --in-fq <sample file 1> <sample file 2> --num-gpus <number of gpus used> --out-bam <.bam output file> --out-variants <.vcf output file> 2>&1 | tee <.txt output file>`
 
@@ -50,7 +50,7 @@ Example for BM.GPU3.8:
 
 `sudo pbrun germline --ref /mnt/block/parabricks_assets/Ref/Homo_sapiens_assembly38.fasta --in-fq /mnt/block/parabricks_assets/data/sample_1.fq.gz /mnt/block/parabricks_assets/data/sample_2.fq.gz --num-gpus 8 --out-bam germline.bam --out-variants germline.bam 2>&1 | tee germline.txt`
 
-Once the benchmark is complete, go to the txt file you wrote the output to. The benchmark will show the time it took for the following programs n the germline pipeline to run:
+Once the benchmark is complete, go to the `.txt` file you wrote the output to. The benchmark will show the time it took for the following programs n the germline pipeline to run:
 - Sorting Phase - I
 - Sorting Phase - II 
 - Marking Duplicates, BQSR 

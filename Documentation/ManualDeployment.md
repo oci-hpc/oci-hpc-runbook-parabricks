@@ -52,7 +52,7 @@ Before creating an instance, we need to configure a Virtual Cloud Network.
 
  4. Click <img src="https://github.com/oci-hpc/oci-hpc-runbook-gromacs/blob/master/images/create.png" height="25">.
 
- 5. After a few minutes, the instances will turn green, meaning it is up and running. Click on the instance name in the console to identify the public IP. You can now connect using `ssh opc@xx.xx.xx.xx` from the machine using the key that was provided during the creation. 
+ 5. After a few minutes, the instances will turn green, meaning it is up and running. Click on the instance name in the console to identify the public IP. You can now connect using `ssh ubuntu@xx.xx.xx.xx` from the machine using the key that was provided during the creation. 
 
 ### Block Storage
 

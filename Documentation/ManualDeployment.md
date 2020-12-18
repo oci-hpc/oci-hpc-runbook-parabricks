@@ -112,23 +112,24 @@ You will need to mount it to your running instance to be able to use it.
     ```
     sudo mkfs -t ext4 <device path>
     ```
-
+    For example: `sudo mkfs -t /dev/oracleoci/oraclevdb`
+    
  4. Create a folder on the `/mnt` drive to mount the block volume. For example:
     ```
-    sudo mkdir /mnt/parabricks 
+    sudo mkdir /mnt/block 
     ```
  5. Create a mount point: 
      ```
     sudo mount <device path> <mount point>
     ```
-    For example: `sudo mount /dev/oracleoci/oraclevdb /mnt/parabricks`
+    For example: `sudo mount /dev/oracleoci/oraclevdb /mnt/block`
     
  6. Run `lsblk`
     The disk should appear as correctly mounted on the mountpoint.
  
  7. Change the permissions of the volume. For example:
     ```
-    sudo chmod 777 /mnt/parabricks
+    sudo chmod 777 /mnt/block
     ```
 
 ## Parabricks Configuration

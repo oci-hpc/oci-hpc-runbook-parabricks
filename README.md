@@ -29,7 +29,7 @@ Deploying this architecture on OCI can be done in different ways:
 Please obtain a Parabricks license [here](https://developer.nvidia.com/clara-parabricks). 
 
 # Running the Application
-If the provided terraform scripts are used to launch the application, Parabricks is installed in the `/mnt/block/parabricks` folder and the example benchmarking model is available in the `/mnt/block/data` folder. The following scripts run the germline pipleine, the architecture shown below. 
+If the provided terraform scripts are used to launch the application, Parabricks is installed in the `/mnt/block/parabricks` folder and the example benchmarking model is available in the `/mnt/block/parabricks_assets/data` folder. The following scripts run the germline pipleine, the architecture shown below. 
 
 ![](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/images/Germline%20Pipeline%20Architecture.png)
 
@@ -48,7 +48,7 @@ where:
 
 Example for BM.GPU3.8:
 
-`sudo pbrun germline --ref /mnt/block/data/Ref/Homo_sapiens_assembly38.fasta --in-fq /mnt/block/data/sample_1.fq.gz /mnt/block/data/sample_2.fq.gz --num-gpus 8 --out-bam germline.bam --out-variants germline.bam 2>&1 | tee germline.txt`
+`sudo pbrun germline --ref /mnt/block/parabricks_assets/Ref/Homo_sapiens_assembly38.fasta --in-fq /mnt/block/parabricks_assets/data/sample_1.fq.gz /mnt/block/parabricks_assets/data/sample_2.fq.gz --num-gpus 8 --out-bam germline.bam --out-variants germline.bam 2>&1 | tee germline.txt`
 
 Once the benchmark is complete, go to the txt file you wrote the output to. The benchmark will show the time it took for the following programs n the germline pipeline to run:
 - Sorting Phase - I

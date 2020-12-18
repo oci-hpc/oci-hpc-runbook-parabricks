@@ -19,7 +19,7 @@ Select the region in which you wish to create your instance. Click on the curren
 
 
 ### Add Parabricks Installer to Object Storage
-*Please modify the variable.tf file and replace the values for parabricks_license and parabricks_license with your own pre-authenticated request urls.*
+*Please modify the variable.tf file and replace the values for parabricks_license and parabricks_assets with your own pre-authenticated request urls.*
 
   1. Select the menu <img src="https://github.com/oci-hpc/oci-hpc-runbook-shared/blob/master/images/menu.png" height="20"> on the top left, then select Object Storage --> Object Storage.
 

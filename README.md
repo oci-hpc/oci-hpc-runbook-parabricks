@@ -59,3 +59,5 @@ Once the benchmark is complete, go to the txt file you wrote the output to. The 
 If you'd like to automate this pipeline, please refer to the [automation script](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Resources/germline_automation.sh). 
 
 `scp myfile.txt {username}\@{public-ip-address}:/remote/folder/`
+
+To write out to Object Storage, please add your PRE-AUTHENTICATED REQUEST URL for your Object Storage bucket in line 14 of the automation script. To see how to create an Object Storage bucket, refer [here](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Documentation/ResourceManager.md#add-parabricks-installer-to-object-storage).

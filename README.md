@@ -56,6 +56,6 @@ Once the run is complete, go to the txt file you wrote the output to. The run wi
 - Marking Duplicates, BQSR 
 - HaplotypeCaller
 
-If you'd like to automate this script, please refer to the [automation script](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Resources/germline_automation.sh). 
+If you'd like to automate this pipeline, please refer to the [automation script](https://github.com/oci-hpc/oci-hpc-runbook-parabricks/blob/main/Resources/germline_automation.sh). 
 
 
